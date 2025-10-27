@@ -3,7 +3,7 @@ const app = express(); //iniciando o express
 
 //criando a rota inicial
 app.get("/",function(req,res){
-    res.send("Bem vindo ao meu site!");
+    res.send("</h1>Bem vindo ao meu site!</h1>");
 })
 
 app.get("/lista",function(req,res){
